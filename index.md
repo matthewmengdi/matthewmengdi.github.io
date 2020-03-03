@@ -1,37 +1,127 @@
-<center>Welcome to GitHub Pages</center>
-
-You can use the [editor on GitHub](https://github.com/matthewmengdi/matthewmengdi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/matthewmengdi/matthewmengdi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sinho Chewi's Website</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#notes">Notes</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#research">Research</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Matthew Zhong's Website</h1>
+            <p>Copied from the Bootstrap template.</p>
+            <p>I am a Finance undergraduate of 2020 class at Nanjing University (NJU) and an incoming Master in Economics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Notes Section -->
+    <section id="notes" class="note-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Notes</h1>
+          </div>
+          <p>Here is a collection I have been working on since I determined to study on Economics for my Master's degree. Hence it begins with the courses for my last semester at Nanjing University.</p>
+          <div class="col-lg-4">
+            <h3>09010240</h3>
+            <h5>Intermediate Economics</h5>
+            <ul>
+              <li>
+                <a href="https://drive.google.com/open?id=1N_h8wa7j57sBL45JyRsq4KGp0i1j0C8W">February 18, 2020</a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/open?id=1hWy06dcAD4jelqmnNEOroUCSmPJBHKfS">February 25, 2020</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+      <div class="container">
+        <div class="row">
+          <h1>Research</h1>
+        </div>
+        <h4>Projects</h4>
+        <ul>
+          <li>
+            <i>Estimation of Large Dimensional Covariance Matrices: Empirical Analysis Based on A-share Market</i>. Mengdi Zhong and Qianying Zhang. May 2019.
+          </li>
+          <li>
+            <i>Performance of Unicorn fund yields and influencing factors analysis</i>. Qianying Zhang and Mengdi Zhong. May 2019.
+          </li>
+          <li>
+            <i>Media Supervision and CSR Information Disclosure in the Context of New Media - An Analysis of Metal and Non-metal Manufacturing Industry</i>. Mengdi Zhong and Keyi Xia. May 2018.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Contact</h1>
+            <p>You can email me at <a href="mengdi_zhong@smail.nju.edu.cn">mengdi_zhong@smail.nju.edu.cn</a>.</p>
+            <br>
+            <p>22 Hankou Rd., Nanjing, China 210093</p>
+            <p><a href="https://www.linkedin.com/in/mengdi-zhong-60b10718b">[LinkedIn]</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
